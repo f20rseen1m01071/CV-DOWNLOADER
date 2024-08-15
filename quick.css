@@ -1,0 +1,81 @@
+.navbar,.navbar-nav{
+    height: 90px;
+}
+
+.BT{
+    height: 50px;
+    width: 30%;
+    background:linear-gradient(90deg,rgb(195, 115, 232), rgb(28, 162, 206));
+    opacity: 0.8;
+    position: relative;
+}
+.BT:hover{
+
+    opacity: 1.2;
+}
+.BT1:hover{
+  
+    background:linear-gradient(90deg,rgb(195, 115, 232), rgb(28, 162, 206));
+}
+  /* Home */
+   .con{
+    background: linear-gradient(177deg,rgb(195, 115, 232), rgb(28, 162, 206));
+}   
+
+/* ------------app----------- */
+
+.app{
+    height: 250px;
+    border: 2px solid rgb(195, 115, 232) ;
+    border-radius: 15%;
+}
+.app img:hover{
+    transition: 1s ease-in-out;
+    transform: scale(1.2);
+}
+body{ 
+    width: 100%;
+}
+.ben{
+    border: 2px solid rgb(195, 115, 232) ;
+    border-radius: 5%;
+}
+.ben img:hover{
+    transform: scale(1.1);
+}
+
+/* ----------------FAQ'S---------------- */
+
+.accordion {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    }
+
+.accordion-header {
+    background: linear-gradient(177deg,rgb(195, 115, 232), rgb(28, 162, 206));
+    border: none;
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+
+.accordion-content {
+    padding: 15px;
+    display: none;
+    overflow: hidden;
+    background: linear-gradient(177deg,rgb(195, 115, 232), rgb(28, 162, 206));
+}
+
+/* ----------------testp--------------- */
+
+.tex:hover{
+    transform: scale(1.1); 
+}
+.testo{
+    border: 2px solid rgb(195, 115, 232) ;
+    border-radius: 3%;
+}
+
